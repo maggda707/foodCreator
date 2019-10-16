@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>FoodCreator</title>
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="main.css">
+
+		<script src="https://unpkg.com/scrollreveal"></script>
+	</head>
+
+	<body>
+		<nav class="navbar navbar-expand-md navbar-light">
+			<a class="navbar-brand custom-color" href="#">Food Creator</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarsExample04">
+				<ul class="navbar-nav mr-auto custom-color">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="blog.html">Blog</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Przepisy</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Jak używac?</a>
+						<div class="dropdown-menu" aria-labelledby="dropdown04">
+							<a class="dropdown-item" href="#">Action</a>
+							<a class="dropdown-item" href="#">Another action</a>
+							<a class="dropdown-item" href="#">Something else here</a>
+						</div>
+					</li>
+				</ul>
+
+				<div class="navbar-nav" id="login-signup">
+					<a class="nav-item nav-link" href="#">Zaloguj się</a>
+					<a class="nav-item nav-link" href="#">Zarejestruj się</a>
+				</div>	
+			</div>
+		</nav>
+
+		<main>				
+			<section class="PageHome">
+				<div class="container">
+						
+					<header>							
+						<h1>Poznaj Food Creator</h1>
+						<p>Dowiedz się jak korzystać z Food Creator! Poznaj korzyści.</p>								
+					</header>
+
+					<div class="row"> <!--mozna dodac no-gutters - usuwa poziome odstepy pomiedzy obrazakami -->						
+						<div class="col-sm-12"> <!--offset-md-1 przesuwa obrazek o jedna kolumne-->				
+							<img src="img/1.jpg" alt="image 1"> <!--mozna dodac class="img-fluid" tutaj zeby obrazki byly pokazane w 100% i nie wylewały sie, wtedy nie pisac tego w css -->
+							<p class="description">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et turpis pretium, volutpat metus a, tincidunt ante. In tempor erat turpis, non dictum nisl condimentum id. Nam vitae quam varius, faucibus lacus sed, euismod nunc. Vestibulum a porttitor nisl. Praesent in sapien quam. Donec ac nisi sed enim tempor consequat in eu nulla. Vivamus sit amet imperdiet turpis. Nullam nisl ligula, tincidunt nec libero at, facilisis lacinia nunc. Ut efficitur dictum dui at bibendum.							
+							</p>
+						</div>
+						<div class="col-sm-6">	
+							<img src="img/2.jpg" alt="image 2">
+						</div>
+						<div class="col-sm-6">
+							<p class="description">
+								Aliquam sollicitudin diam a ex iaculis vehicula. Aliquam et iaculis quam, eget porttitor lacus. Donec vel risus est. Duis eu elit tellus. Donec pulvinar elit gravida pharetra consequat. Aliquam vel interdum elit. Phasellus pretium eleifend nisi, ac aliquet quam ultrices eu. Vivamus convallis ornare velit, ac tempor nulla venenatis vitae. Pellentesque aliquet, magna sit amet tincidunt sagittis, eros ligula facilisis ipsum, eget tempor elit diam at enim. Sed eu risus interdum ipsum gravida pellentesque a et lectus. Ut quis urna congue, rutrum purus vel, bibendum eros. Morbi blandit arcu sit amet augue malesuada faucibus. Vestibulum congue quis urna luctus auctor. Vestibulum laoreet diam eget pellentesque scelerisque. Curabitur lorem nibh, sagittis vitae euismod in, consequat a eros. Nam eleifend dui massa, dictum elementum quam laoreet in.
+							</p>
+						</div>
+						<div class="col-sm-4">
+							<img src="img/3.jpg" alt="image 3">							
+						</div>
+						<div class="col-sm-4">
+							<img src="img/4.jpg" alt="image 4">
+						</div>
+						<div class="col-sm-4">
+							<img src="img/5.jpg" alt="image 5">							
+						</div>
+					</div>									
+				</div>			
+			</section>
+		</main>
+
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+		<script>
+			ScrollReveal().reveal(
+				'img', 
+				{
+					reset: true,
+					delay: 200
+				});
+			ScrollReveal().reveal(
+				'.description', 
+				{
+					reset: true,
+					delay: 200
+				});
+		</script>
+	</body>
+</html>

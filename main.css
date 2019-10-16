@@ -1,0 +1,74 @@
+body
+{
+	background-color: #FFFFFF;
+	color: #616161;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+nav
+{
+	background-color: #EEEEEE;
+	color: #616161;
+}
+
+h1
+{
+	font-size: 36px;
+	font-weight: 600;
+	color: rgb(183, 206, 71);
+	margin: 20px;
+}
+
+
+.custom-color 
+{
+	color: #424242;
+}
+
+/*odnosi się do wszystkich <a> wewnątrz <li> wewnątrz tagu z klasą class="custom-color"  */
+.custom-color  li a
+{
+	color: #616161;
+}
+
+#login-signup a
+{
+	color: #424242;
+}
+
+
+.PageHome		/*nie podawac nic o szerokosci, bo to jest w sekction, a w divie mamy dontainer, wiec on sam sie dostosuje do szerokosci*/
+{
+	text-align: center;
+}
+
+
+.PageHome img /*zamiast class=class="img-fluid" */
+{
+	width: 100%;
+	height: auto;
+}
+
+.PageHome p
+{
+	margin-bottom: 30px;
+}
+
+.PageHome figcaption
+{
+	margin-top: 8px;
+}
+
+img{
+	-webkit-box-shadow: 10px 10px 26px 0px rgba(77,77,77,0.6);
+	-moz-box-shadow: 10px 10px 26px 0px rgba(77,77,77,0.6);
+	box-shadow: 10px 10px 26px 0px rgba(77,77,77,0.6);
+	margin-bottom: 30px;
+	margin-top:20px;
+}
+
+.description{
+	text-align: justify;
+	margin-top:20px;
+}
